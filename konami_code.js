@@ -12,4 +12,4 @@ function init() {
     } //else remove first element
       else{code.shift()}
   }); 
-}
+} */
