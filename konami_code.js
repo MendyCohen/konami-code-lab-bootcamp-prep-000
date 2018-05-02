@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   let tracker = [];
   document.body.addEventListener('keydown', function(e){
-    tracker.push(e.which || e.detail);
+    tracker.push(e.which);
     //if length == code.length
     if(tracker.length === code.length){
       //if tracker == code : success
