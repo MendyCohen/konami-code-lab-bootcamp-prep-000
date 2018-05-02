@@ -8,7 +8,7 @@ function init() {
     //if length == code.length
     if(tracker.length === code.length){
       //if tracker == code : success
-      alert('great job buddy!');
+      console.alert('great job buddy!');
     } //else remove first element
       else{code.shift()}
   }); 
